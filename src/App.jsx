@@ -62,7 +62,7 @@ const AppContent = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/stem/">
       <AppProvider>
         <AppContent />
       </AppProvider>
